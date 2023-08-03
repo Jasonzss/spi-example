@@ -1,5 +1,7 @@
 # SPI(Service Provider Interface)的简单实现
 
+使用本项目时记得将各个模块下的lib目录中的jar导入到本模块的依赖中
+
 ## 目录结构
 
 spi-example:
