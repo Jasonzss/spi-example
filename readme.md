@@ -16,7 +16,7 @@ spi-example:
 
 resources/META-INF/services目录下以SPI接口全类名为文件名（例如：com.jason.example.spi.Logger）的文件里，记录了该SPI的实现类
 
-为什么是这个目录？因为约定俗成，看ServiceLoader的源码就知道了：![img](img/img.png)
+为什么是这个目录？因为约定俗成，看ServiceLoader的源码就知道了：![img](img.png)
 
 java.util.ServiceLoader类可以将文件中记录的实现类全部加载出来。如果有多个文件中记录了多个实现类，那么这些实现类全都会被加载，具体使用哪个由SPI的调用方决定。
 
